@@ -44,16 +44,15 @@ test('\nemoji-first header names', function (t) {
 
   t.same(
       headers.toc.split('\n')
-    , [ '**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*',
-        '',
-        ' - [🔴 or 🟡 - At Risk](#-or----at-risk)',
-        ' - [🔄 Still Need Updates](#-still-need-updates)',
+    , [ '',
+        '- [🔴 or 🟡 - At Risk](#-or----at-risk)',
+        '- [🔄 Still Need Updates](#-still-need-updates)',
         '  - [⏱ Past-Due Items](#-past-due-items)',
-        ' - [➡ ETA Changes This Week](#-eta-changes-this-week)',
-        ' - [🚀 Shipped this week](#-shipped-this-week)',
-        ' - [🛠 Availability repair items](#-availability-repair-items)',
-        ' - [🎟 Support Tickets](#-support-tickets)',
-        ' - [🔬 Team-by-team Breakdown: Hello](#-team-by-team-breakdown-hello)',
+        '- [➡ ETA Changes This Week](#-eta-changes-this-week)',
+        '- [🚀 Shipped this week](#-shipped-this-week)',
+        '- [🛠 Availability repair items](#-availability-repair-items)',
+        '- [🎟 Support Tickets](#-support-tickets)',
+        '- [🔬 Team-by-team Breakdown: Hello](#-team-by-team-breakdown-hello)',
         '' ]
     , 'generates a correct toc when readme has emojis as the first character for headings'
   )
