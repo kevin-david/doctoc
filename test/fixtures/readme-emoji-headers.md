@@ -13,6 +13,8 @@ README to test doctoc with emoji-first headers
 
 # 🚀 Shipped this week
 
+# 🛠 Availability repair items
+
 # 🎟 Support Tickets
 
 # 🔬 Team-by-team Breakdown: Hello
